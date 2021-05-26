@@ -12,4 +12,14 @@ namespace Cbasic4
         {
         }
     }
+    class Car
+    {
+        int carNumber;
+        int inTime;
+        int outTime;
+    }
+    static void Main(string[] args)
+    {
+        Car[] cars = new Car[10];
+    }
 }
