@@ -10,6 +10,7 @@ namespace Cbasic4
     {
         static void Main(string[] args)
         {
+            Car[] cars = new Car[10];
         }
     }
     class Car
@@ -18,8 +19,5 @@ namespace Cbasic4
         int inTime;
         int outTime;
     }
-    static void Main(string[] args)
-    {
-        Car[] cars = new Car[10];
-    }
+
 }
